@@ -49,6 +49,7 @@
 #include "binder/IServiceManager.h"
 
 #define TUN_DEV "/dev/tun"
+#define AID_USER_OFFSET 100000 /* offset for uid ranges for each user */
 
 using namespace android;
 using namespace android::base;
